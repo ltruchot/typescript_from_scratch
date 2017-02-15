@@ -10,22 +10,23 @@
  *   - ask to typescript to compile this file in ES5, then run "tsc"
  * - finally, run tsc -w
  */
-let gameName = "quizz";
-const GAME_MAX_PLAYER = 2;
+const GAME_NAME = "quizz";
+let maxPlayer = 2;
 var playerReady = false;
 
 /* STEP 3: first types
  * - add types to 3 previous variables
  * - uncomment following code
- * - try to add a question to gameData - what about const ?
+ * - try to add a question to gameData with a "push" - what about const ?
  * - try to reset gameData like this:
- * gameData = []; what append on compile ?
+ * gameData = []; what append on compile ? why ?
  * - try to create a perfect interface for a gameData object
  * - put your perfect interface in beginner.d.ts file
  * - try to provoke error of type in your IDE
  */
 
-export const completeGameData: any = [{
+export
+const completeGameData: any = [{
   q: "Quelle société développe TypeScript ?",
   a: 'Microsoft',
   c: ['Google', 'Amazon', 'Facebook'],

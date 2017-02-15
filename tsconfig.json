@@ -6,7 +6,9 @@
     "sourceMap": true
   },
   "files": [
-    "./beginner.d.ts",
     "./beginner.ts"
+  ],
+  "exclude": [
+    "./01-junior"
   ]
 }
