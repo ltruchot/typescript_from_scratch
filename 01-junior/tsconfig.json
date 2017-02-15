@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "removeComments": true,
     "module": "commonjs",
     "sourceMap": true
   },
-  "files": [
-    "./beginner.d.ts",
-    "./beginner.ts"
-  ]
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
 }
