@@ -15,7 +15,7 @@ console.log(arr.join(','))
  * - what is the difference between forEach, for..in and for..of ?
  */
 /*
-completeGameData.forEach(function(item, index) {
+completeGameData.forEach((item, index) => {
   for (var param in item) {
     console.log('param in for...in:', param)
     if (param === 'c') {
@@ -64,7 +64,7 @@ playButton.addEventListener('click', gameProcess)
 
 function gameProcess() {
   let validAnswer = 0;
-  completeGameData.forEach(function(item, index) {
+  completeGameData.forEach((item, index) => {
     if (window.prompt(item.q).toLowerCase() === item.a.toLowerCase()) {
       validAnswer++
     }
