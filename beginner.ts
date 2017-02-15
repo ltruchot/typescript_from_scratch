@@ -1,8 +1,9 @@
-/* STEP 1: install TypeScript
- * - with node, need last version of typescript globally and a linter
- * npm install -g typescript@next
- * - install your IDE pakage for typescript. If it don't exist, work with Sublime text
- */
+console.log('my congiguration is working well...')
+  /* STEP 1: install TypeScript
+   * - with node, need last version of typescript globally and a linter
+   * npm install -g typescript@next
+   * - install your IDE pakage for typescript. If it don't exist, work with Sublime text
+   */
 
 /* STEP 2: configure compiler
  * - enhance tsconfig.json
@@ -24,8 +25,7 @@ var playerReady = false;
  * - put your perfect interface in beginner.d.ts file
  * - try to provoke error of type in your IDE
  */
-
-export
+/*
 const completeGameData: any = [{
   q: "Quelle société développe TypeScript ?",
   a: 'Microsoft',
@@ -47,3 +47,4 @@ interface GameData {
     l: any, // level of difficulty,
     d: any // done already ?
 }
+*/
